@@ -1,7 +1,9 @@
 body{
     background-color: #001219;
 }
-
+/* putting in notes like this when you start getting more complex is always best to do. So you know what exactly each setting
+it doesnt alter anything since its greyed out, vs the code in white. So when testing on a live site or copy and paste code from a site and havent
+altered any of the settings and its messing up the page? just put these infront & behind it */
 h1{
     text-align: center;
     font-size: 80px;
@@ -16,8 +18,15 @@ h1{
     background-color: #9b2226;
 }
 
-a[href]{
+a{
+/*when its just set to a, it will change anything using a hyperlink. If you want it to specifically 
+target certain ones like a then it will only change the hyperlinks using that a code. A is all you need. 
+Href specifies a location like a href="seven-layer-taco-dip" if you set a "#" then it just directs back to the site you are on which is what most people do
+when waiting on a new page or editing one. Just so it shows a hyperlink*/
+
     color: #ee9b00;
+    style="text-decoration:none" /* this is how you set up no underline to be shown. If you still want one to be shown you can make another a hover{]
+    and this will show only when you hover over anything */ 
 }
 
 button{
